@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 5rem;
+  padding: 5%;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: 'Josefin Slab', serif;
+  padding: 5% 5% 5% 0%;
+  font-size: 3rem;
+}
+
+h4, h3{
+  padding: 0% 15%;
+  line-height: 200%;
+  letter-spacing: 110%;
+}
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: black;
+}
+/* Navbar */
+.navbar {
+  background-color: #ff5200;
+  padding-right: 10%;
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  padding-left: 10%;
+}
+
+/* header */
+.header {
+  background-color: #ff5200;
+  color: white;
+  padding: 7% 3%;
+}
+
+.header-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 5%;
+  margin-left: 10%;
+}
+
+@media (max-width: 850px) {
+  .navbar-brand{
+    padding: 1.5%;
+  }
+
+  .header-img {
+    margin: 10%;
+    margin-left: 40%;
+    width: 25%;
+  }
+}
+
+/* facts */
+.facts{
+  padding: 5%;
+}
+
+.carousel-item{
+  padding: 5%;
+  text-align: center;
+  height: 25%;
+}
+
+.fas{
+  padding: 2%;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666666' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23666666' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* footer */
+
+.footer{
+  padding: 7% 3%;
+}
+
+.copytext{
+  line-height: 200%;
+  letter-spacing: 110%;
+}
+
+.ignore{
+  padding: .5%;
+}
